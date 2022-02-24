@@ -1,6 +1,6 @@
 Arch installation instructions
 ==============================
-sudo pacman -Sy tty-font-awesome
+sudo pacman -Sy ttf-nerd-fonts-mono
 cd sources
 git clone https://github.com/nozzato/st.git
 cd st
