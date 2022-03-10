@@ -1,10 +1,9 @@
 Arch installation instructions
 ==============================
-sudo pacman -Sy ttf-nerd-fonts-mono
-cd sources
-git clone https://github.com/nozzato/st.git
-cd st
-cp config.def.h config.h
+Clone the repository
+$ git clone https://github.com/nozzato/st.git
+
+Install st
 sudo make clean install
 
 
