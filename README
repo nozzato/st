@@ -11,6 +11,7 @@ Patches
 -------
 scrollback
 scrollback-reflow
+scrollback-mouse
 
 
 st - simple terminal
