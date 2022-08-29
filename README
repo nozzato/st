@@ -1,20 +1,5 @@
-Arch installation instructions
-==============================
-Clone the repository
-$ git clone https://github.com/nozzato/st.git
-
-Install st
-sudo make clean install
-
-
-Patches
--------
-anysize
-scrollback
-
-
 st - simple terminal
-====================
+--------------------
 st is a simple terminal emulator for X which sucks less.
 
 
