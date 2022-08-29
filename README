@@ -10,6 +10,7 @@ Install st
 Patches
 -------
 scrollback
+scrollback-reflow
 
 
 st - simple terminal
