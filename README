@@ -9,6 +9,7 @@ Install st
 
 Patches
 -------
+blinkingcursor
 scrollback
 scrollback-reflow
 scrollback-mouse
