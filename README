@@ -10,6 +10,7 @@ Install st
 Patches
 -------
 blinkingcursor
+boldisnotbright
 scrollback
 scrollback-reflow
 scrollback-mouse
