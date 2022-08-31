@@ -11,6 +11,7 @@ Patches
 -------
 blinkingcursor
 boldisnotbright
+selectioncolors
 scrollback
 scrollback-reflow
 scrollback-mouse
