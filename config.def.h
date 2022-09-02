@@ -73,7 +73,7 @@ static unsigned int cursorthickness = 2;
  *    Bold affects lines thickness if boxdraw_bold is not 0. Italic is ignored.
  * 0: disable (render all U25XX glyphs normally from the font).
  */
-const int boxdraw = 0;
+const int boxdraw = 1;
 const int boxdraw_bold = 0;
 
 /* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
@@ -199,8 +199,8 @@ static uint forcemousemod = ShiftMask;
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument       release */
-	{ ShiftMask,            Button4, kscrollup,      {.i = 3} },
-	{ ShiftMask,            Button5, kscrolldown,    {.i = 3} },
+	{ XK_ANY_MOD,           Button4, kscrollup,      {.i = 3} },
+	{ XK_ANY_MOD,           Button5, kscrolldown,    {.i = 3} },
 	{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},      1 },
 };
 
