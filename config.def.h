@@ -6,6 +6,11 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "DejaVuSansMono Nerd Font:pixelsize=12:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+    "Blobmoji:pixelsize=12:antialias=true:autohint=true"
+};
+
 static int borderpx = 2;
 
 /*
