@@ -5,10 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVuSansMono Nerd Font:pixelsize=12:antialias=true:autohint=true";
+static char *font = "DejaVu Sans Mono:pixelsize=12:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "Blobmoji:pixelsize=12:antialias=true:autohint=true"
+    "Blobmoji:pixelsize=12:antialias=true:autohint=true",
+    "Font Awesome 6 Free Solid:pixelsize=12:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
